@@ -13,7 +13,7 @@
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1em;
 }
 
 /*
@@ -110,7 +110,7 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 200;
   display: flex;
   justify-content: space-between;
 }
@@ -119,13 +119,18 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: #810BDE;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  border-style: dashed;
+  border-left: 2px;
+  border-right: 2px;
+  border-color: #fff;
+  text-align: center;
 }
 
 
